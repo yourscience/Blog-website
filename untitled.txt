@@ -1,0 +1,128 @@
+/blog-website
+├── index.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YourScience Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>YourScience</h1>
+    <p>Learn something new every day!</p>
+  </header>
+
+  <main>
+    <section class="blog-list">
+      <article>
+        <h2><a href="blog1.html">Photosynthesis Simplified</a></h2>
+        <p>Learn how plants make food using sunlight. Click to read more...</p>
+      </article>
+
+      <article>
+        <h2><a href="blog2.html">Structure of DNA</a></h2>
+        <p>Explore the double-helix structure and its importance. Click to read more...</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 YourScience. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+├── style.css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: #007BFF;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.blog-list {
+  padding: 20px;
+}
+
+.blog-list article {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 4px solid #007BFF;
+}
+
+.blog-list a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #343a40;
+  color: white;
+}
+├── blog1.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photosynthesis Simplified</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Photosynthesis Simplified</h1>
+  </header>
+
+  <main>
+    <article class="blog-content">
+      <p>Photosynthesis is the process by which green plants use sunlight to make food. The main ingredients are carbon dioxide, water, and sunlight.</p>
+      <p>Formula: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂</p>
+    </article>
+  </main>
+
+  <footer>
+    <p><a href="index.html">← Back to Home</a></p>
+  </footer>
+</body>
+</html>
+└── blog2.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Structure of DNA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Structure of DNA</h1>
+  </header>
+
+  <main>
+    <article class="blog-content">
+      <p>DNA (Deoxyribonucleic acid) is the molecule that carries genetic information. It has a double helix shape, like a twisted ladder.</p>
+      <p>Its bases: Adenine, Thymine, Cytosine, and Guanine.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p><a href="index.html">← Back to Home</a></p>
+  </footer>
+</body>
+</html>
